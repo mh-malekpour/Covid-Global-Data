@@ -1,6 +1,6 @@
 Package: CovidGlobalData
 Type: Package
-Title: Get
+Title: R package for capturing and visualizing covid-19 data of Johns Hopkins University.
 Version: 0.1.0
 Author@R: c(person("Mohmmad Hossein", "Malekpour",
             email = "mohammadhossein.malekpour@gmail.com")
