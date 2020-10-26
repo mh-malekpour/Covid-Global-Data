@@ -1,10 +1,9 @@
 Package: CovidGlobalData
 Type: Package
-Title: R package for capturing and visualizing covid-19 data of Johns Hopkins University.
+Title: covid-19 data of Johns Hopkins University
 Version: 0.1.0
-Author@R: c(person("Mohmmad Hossein", "Malekpour",
-            email = "mohammadhossein.malekpour@gmail.com")
-Maintainer: mohammadhossein.malekpour@gmail.com
+Author: <Mohmmad Hossein Malekpour>
+Maintainer: <mohammadhossein.malekpour@gmail.com>
 Description: R package for capturing and visualizing covid-19 data of Johns Hopkins University.
 License: GPL-3      
 Encoding: UTF-8
@@ -12,7 +11,11 @@ LazyData: true
 URL: https://github.com/mhmp98/CovidGlobalData
 BugReports: https://github.com/mhmp98/CovidGlobalData/issues
 Depends:
-  R
+  R (>= 3.5.0)
 Imports:
   tidyverse,
-  ggplot2
+  ggplot2,
+  roxygen2,
+  ggpmisc,
+  patchwork,
+  scales
