@@ -1,4 +1,3 @@
-
 plotTimeSeries <- function(Country, startDate, endDate){
 
   library(scales)
@@ -6,9 +5,6 @@ plotTimeSeries <- function(Country, startDate, endDate){
   library(ggpmisc)
   library(dplyr)
 
-  Country = 'US'
-  startDate = '2020-01-22'
-  endDate = '2020-06-30'
   startDate = as.POSIXct(startDate)
   endDate = as.POSIXct(endDate)
   covidData <- CovidGlobalData::getData()
