@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: <Mohmmad Hossein Malekpour>
 Maintainer: <mohammadhossein.malekpour@gmail.com>
 Description: R package for capturing and visualizing covid-19 data of Johns Hopkins University.
-License: GPL-3      
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/mhmp98/CovidGlobalData
@@ -19,3 +19,4 @@ Imports:
   ggpmisc,
   patchwork,
   scales
+RoxygenNote: 7.1.1
